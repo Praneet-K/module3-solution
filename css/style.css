@@ -1,0 +1,56 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	background-color: maroon;
+}
+#navbar-header{
+	background-color: green;
+	border-radius: 0;
+}
+#navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	color:red;
+	font-size: 2em;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height:  .75;
+}
+.navbar-brand a:hover,.navbar-brand a:focus {
+	text-decoration:none; 
+}
+#collapsable-nav{
+	background-color: blue;
+}
+#nav-list div{
+	font-size: 1.2em;
+	color:#FFF;
+	padding:0;
+}
+#nav-list a:focus {
+	background-color: yellow;
+	color:red;
+}
+/****Body*****/
+section{
+	background-color:yellow;
+	height:1000px;
+	margin-top: 5px;
+	margin-bottom:5px;
+	border:1px solid green;
+}
+section div{
+	font-size:1.4em;
+	font-weight:bold;
+}
+#ourmenu {
+	font-size:1.7em;
+	font-weight:bold;
+	color : #fff;
+}
